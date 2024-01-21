@@ -1,0 +1,12 @@
+prefix=d:/git_projects/Telecom_churn/e1/Library
+exec_prefix=d:/git_projects/Telecom_churn/e1/Library
+libdir=d:/git_projects/Telecom_churn/e1/Library/lib
+includedir=d:/git_projects/Telecom_churn/e1/Library/include
+
+Name: libzmq
+Description: 0MQ c++ library
+Version: 4.3.5
+Libs: -L${libdir} -lzmq
+Libs.private: -lstdc++ 
+Requires.private: 
+Cflags: -I${includedir} 
